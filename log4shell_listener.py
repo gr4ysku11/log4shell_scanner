@@ -4,7 +4,7 @@
 import sys
 from socket import *
 
-lip = '127.0.0.1'
+lip = sys.argv[1]
 lport = 1389
 
 s = socket(AF_INET,SOCK_STREAM)
